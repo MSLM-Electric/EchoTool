@@ -12,6 +12,7 @@
 
 using System;
 using EchoTool.Modes;
+using System.Threading.Tasks;
 
 namespace EchoTool
 {
@@ -38,8 +39,17 @@ namespace EchoTool
         {
             Console.WriteLine();
 
-            if (!DoWork(_arguments))
+            if (!DoWork(_arguments)){
+                Console.WriteLine("You didn't entered the argument!\n" +
+                                  "To do it follow the next instructions\n");
                 ShowHelp();
+                var t = Task.Run(async delegate
+                {
+                    await Task.Delay(TimeSpan.FromSeconds(10));
+                    return 42;
+                });
+                t.Wait();
+            }
         }
 
         /// <summary>

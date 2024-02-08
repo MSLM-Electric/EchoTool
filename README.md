@@ -12,17 +12,17 @@ Command line echo server and client for Windows. This tool is designed according
 - Just one file
 
 For server mode listening on UDP port 4578 run following command
-                
+
 	C:\EchoTool> echotool /p udp /s 4578
-				
+
 On client machine run this
 
 	C:\EchoTool> echotool server.to-test.com /p udp /r 4578
-				
+
 You can specify outgoing local port by /l switch
 
 	C:\EchoTool> echotool server.to-test.com /p udp /r 4578 /l 8976
-				
+
 Number of attempts and timeouts can be set by /n and /t switch
 
 	C:\EchoTool> echotool server.to-test.com /p udp /r 4578 /l 8976 /n 100 /t 10
@@ -30,7 +30,7 @@ Number of attempts and timeouts can be set by /n and /t switch
 Use your own echo pattern with /d switch
 
 	C:\EchoTool> echotool server.to-test.com /p udp /r 4578 /d Hello
-                
+
 
 Echo server mode
 ![server mode image](http://bansky.net/echotool/echo_server.png)
@@ -40,4 +40,4 @@ Echo client mode
 
 ## Download  ##
 Stand alone executable
-[releases/download/v1.5.0.0/echotool.exe](https://github.com/pbansky/EchoTool/releases/download/v1.5.0.0/echotool.exe) [30 Kb]
+[releases/download/v1.5.0.0/echotool.exe](https://github.com/MSLM-Electric/EchoTool/EchoTool/bin/Release/echotool.exe) [30 Kb]
