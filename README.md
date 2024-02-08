@@ -40,4 +40,4 @@ Echo client mode
 
 ## Download  ##
 Stand alone executable
-[releases/download/v1.5.0.0/echotool.exe](https://github.com/MSLM-Electric/EchoTool/EchoTool/bin/Release/echotool.exe) [30 Kb]
+[bin/Realese/echotool.exe](https://github.com/MSLM-Electric/EchoTool/raw/master/EchoTool/bin/Release/echotool.exe) [33 Kb]
